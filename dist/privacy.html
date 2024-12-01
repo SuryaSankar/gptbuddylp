@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Navigation */
+    .navbar {
+      background-color: #438c87;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    .navbar .links {
+      display: flex;
+      gap: 15px;
+    }
+    .navbar a {
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+    .navbar a:hover {
+      background-color: #367a6e;
+    }
+
+    /* Hero section */
+    .hero {
+      background-color: #438c87;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .hero h1 {
+      margin: 20px 0 10px;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+
+    /* Content sections */
+    .section {
+      padding: 50px 20px;
+    }
+    .section-heading {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    /* Instructions section */
+    .instructions {
+      text-align: center; /* Center the bullet points */
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .instructions ul {
+      display: inline-block; /* Center the list */
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    /* Carousel section */
+    .carousel {
+      max-width: 50%; /* Reduce the width of the carousel */
+      margin: 0 auto; /* Center the carousel */
+    }
+    .carousel img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Install button */
+    .btn-success {
+      background-color: #438c87;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+    .btn-success:hover {
+      background-color: #367a6e;
+    }
+
+    .content-container {
+      margin: 0 auto;
+      padding: 20px;
+      max-width: 800px; /* Adjust this to control the width of the content */
+    }
+
+    /* Footer */
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="brand">
+      <h2 style="margin: 0; font-size: 24px;">GPTBuddy</h2>
+    </div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="/images/GPT.png" alt="GPTBuddy Logo">
+    <h1>GPTBuddy</h1>
+    <p>The ultimate companion for organizing your ChatGPT experience.</p>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    
+<div class="content-container">
+<h2>Privacy Policy</h2>
+<p>GPTBuddy does not collect, store, or transmit any personal or sensitive user data. All processing is done locally within your browser.</p>
+</div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 GPTBuddy. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
